@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Nicole Garcia</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="newSite.css?v=1.0">
+
+</head>
+
+<body>
+
+  <div class ="wholeScreen">
+    <div class = "projects">
+      <img class="hidden1" src= "pencil.png" alt = "pencil">
+      <div class="projectText">
+        <h5> <a href="projects.html" style="color: black;text-decoration:none;">Projects</a></li></h5>
+      </div>
+    </div>
+
+    <div class = "experience">
+      <img class="hidden2" src= "lightbulb.png" alt = "lightbulb">
+      <div class="projectText">
+        <h5> <a href="experience.html" style="color: black;text-decoration:none;">Experience</a></li></h5>
+      </div>
+    </div>
+    <div class = "name">
+      <h4> Nicole Garcia </h4>
+    </div>
+
+
+  <div class="antena">
+</div>
+    <div class="antena2">
+      </div>
+
+  <div class="semicircle">
+    </div>
+
+  <div class ="head">
+
+    <div class="smile">
+      </div>
+  <div class = "eyes">
+
+
+    <div class = "eye">
+    <div class = "ball">
+    </div>
+    </div>
+
+<div class = "eye">
+<div class = "ball">
+</div>
+</div>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+var balls = document.getElementsByClassName("ball");
+document.onmousemove = function(){
+  var x = event.clientX * 100 / window.innerWidth + "%";
+  var y = event.clientY * 100 / window.innerHeight + "%";
+
+ for (var i = 0; i <2; i++)
+ {
+   balls[i].style.left =x;
+   balls[i].style.top = y;
+   balls[i].style.transform = "translate(-"+x+", -"+y+")";
+
+ }
+
+  }
+
+
+</script>
+
+
+</body>
+</html>
