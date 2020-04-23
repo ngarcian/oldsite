@@ -1,93 +1,37 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-
-  <title>Nicole Garcia</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
- <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="newSite.css?v=1.0">
-
+  <title> Nicole Garcia </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="style.css" rel ="stylesheet">
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+</style>
 </head>
-
 <body>
 
-  <div class ="wholeScreen">
-    <div class = "projects">
-      <img class="hidden1" src= "pencil.png" alt = "pencil">
-      <div class="projectText">
-        <h5> <a href="projects.html" style="color: black;text-decoration:none;">Projects</a></li></h5>
-      </div>
-    </div>
+<div class="row no-gutters">
 
-    <div class = "experience">
-      <img class="hidden2" src= "lightbulb.png" alt = "lightbulb">
-      <div class="projectText">
-        <h5> <a href="experience.html" style="color: black;text-decoration:none;">Experience</a></li></h5>
-      </div>
-    </div>
-    <div class = "name">
-      <h4> Nicole Garcia </h4>
-    </div>
+  <div class = "col-md-6 no-gutters">
 
-
-  <div class="antena">
+    <div class = "leftSide">
+<div class ="bio">
+  Hi, my name is Nicole Garcia and I'm a <b>content creator<b>. I like to <b>create videos<b> and <b>design graphics<b><b>.
+  I'm self-taught and I learned mostly from running LouiesforLouis and NiallTourNews on <b>social media<b>.
+  I've interned at consumer-facing brands and would love to continue doing so.
+     </div>
 </div>
-    <div class="antena2">
-      </div>
+  <div class = "col-md-6 no-gutters">
 
-  <div class="semicircle">
+    <div class = "rightSide">  </div>
+
     </div>
 
-  <div class ="head">
-
-    <div class="smile">
-      </div>
-  <div class = "eyes">
 
 
-    <div class = "eye">
-    <div class = "ball">
-    </div>
-    </div>
-
-<div class = "eye">
-<div class = "ball">
-</div>
-</div>
-</div>
-  </div>
 </div>
 
 
-
-
-
-
-
-
-
-<script>
-var balls = document.getElementsByClassName("ball");
-document.onmousemove = function(){
-  var x = event.clientX * 100 / window.innerWidth + "%";
-  var y = event.clientY * 100 / window.innerHeight + "%";
-
- for (var i = 0; i <2; i++)
- {
-   balls[i].style.left =x;
-   balls[i].style.top = y;
-   balls[i].style.transform = "translate(-"+x+", -"+y+")";
-
- }
-
-  }
-
-
-</script>
 
 
 </body>
