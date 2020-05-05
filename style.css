@@ -60,4 +60,14 @@
   top:50%;
   transform: translateY(-50%);
 }
+.videoText
+{
+  font-family: 'Manrope', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  padding:30px;
+  top:50%;
+  transform: translateY(-50%);
+}
 
